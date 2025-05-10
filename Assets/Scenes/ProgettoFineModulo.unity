@@ -456,55 +456,55 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hero1:
-    name: 
-    hp: 0
+    name: Gojo
+    hp: 2000
     baseStats:
-      atk: 0
-      def: 0
-      res: 0
-      spd: 0
-      crt: 0
-      aim: 0
-      eva: 0
-    resistance: 0
-    weakness: 0
+      atk: 100
+      def: 80
+      res: 50
+      spd: 70
+      crt: 10
+      aim: 60
+      eva: 50
+    resistance: 2
+    weakness: 1
     weapon:
-      name: 
-      dmgType: 0
-      elem: 0
+      name: InfiniteVoid
+      dmgType: 1
+      elem: 3
       bonusStats:
-        atk: 0
-        def: 0
-        res: 0
-        spd: 0
-        crt: 0
-        aim: 0
-        eva: 0
+        atk: 200
+        def: 80
+        res: 30
+        spd: 10
+        crt: 60
+        aim: 40
+        eva: 25
   hero2:
-    name: 
-    hp: 0
+    name: Sukuna
+    hp: 2000
     baseStats:
-      atk: 0
-      def: 0
-      res: 0
-      spd: 0
-      crt: 0
-      aim: 0
-      eva: 0
-    resistance: 0
-    weakness: 0
+      atk: 100
+      def: 70
+      res: 80
+      spd: 50
+      crt: 15
+      aim: 80
+      eva: 30
+    resistance: 1
+    weakness: 3
     weapon:
-      name: 
-      dmgType: 0
-      elem: 0
+      name: Flame
+      dmgType: 1
+      elem: 1
       bonusStats:
-        atk: 0
-        def: 0
-        res: 0
-        spd: 0
-        crt: 0
-        aim: 0
-        eva: 0
+        atk: 150
+        def: 20
+        res: 40
+        spd: 30
+        crt: 70
+        aim: 50
+        eva: 40
 --- !u!4 &1792832131
 Transform:
   m_ObjectHideFlags: 0
