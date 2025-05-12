@@ -75,7 +75,7 @@ public static class GameFormulas
         }
 
         baseDamage = attackerStats.atk - difesa;
-        baseDamage *= (int) Mathf.Round(EvaluateElementalModifier(attacker.GetWeapon().GetElem(), defender));
+        baseDamage = (int)Mathf.Round(baseDamage * EvaluateElementalModifier(attacker.GetWeapon().GetElem(), defender));
         if (IsCrit(attackerStats.crt)) 
         {
             baseDamage *= 2;
